@@ -8,7 +8,7 @@ import org.galaxio.gatling.kafka.javaapi.KafkaDsl.*
 import org.apache.kafka.clients.producer.ProducerConfig
 import java.time.Duration
 import java.util.UUID
-import java.util.*
+
 
 
 class KafkaLoadSimulation : Simulation(){
@@ -32,8 +32,8 @@ class KafkaLoadSimulation : Simulation(){
                 .set("inn", Vars.randomInn())
         }.exec (
             kafka("Send message").topic("test-topic")
-                .send("#{msgId}", // Ключ
-                    """{"msg_id":"#{msgId}","full_name":"#{fullName}","inn":"#{inn}"}"""
+                .send("#{msgId}",
+                    """{"msg_id":"#{msgId}","full_name":"#{fullName}","inn":"#{inn}"}""".trimMargin()
 
                 )
             )
@@ -43,10 +43,10 @@ class KafkaLoadSimulation : Simulation(){
         setUp(
             scn.injectOpen(
 
-                constantUsersPerSec(5.0).during(Duration.ofMinutes(1)),
-                constantUsersPerSec(10.0).during(Duration.ofMinutes(1)),
-                constantUsersPerSec(25.0).during(Duration.ofMinutes(1)),
-                constantUsersPerSec(50.0).during(Duration.ofMinutes(1))
+                constantUsersPerSec(5.0).during(Duration.ofMinutes(5)),
+                constantUsersPerSec(10.0).during(Duration.ofMinutes(5)),
+                constantUsersPerSec(25.0).during(Duration.ofMinutes(5)),
+                constantUsersPerSec(50.0).during(Duration.ofMinutes(5))
             )
         ).protocols(kafkaConf)
     }
