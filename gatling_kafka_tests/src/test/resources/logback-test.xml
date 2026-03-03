@@ -6,7 +6,7 @@
     </appender>
 
 
-<!--    <logger name="com.typesafe.config" level="DEBUG"/>-->
+    <logger name="com.typesafe.config" level="DEBUG"/>
     <logger name="io.gatling.core.stats.writer" level="DEBUG"/>
     <logger name="io.gatling.core.config" level="DEBUG"/>
 

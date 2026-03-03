@@ -39,10 +39,10 @@ class KafkaLoadSimulation : Simulation(){
         setUp(
             scn.injectOpen(
 
-                constantUsersPerSec(5.0).during(Duration.ofMinutes(5)),
-                constantUsersPerSec(10.0).during(Duration.ofMinutes(5)),
-                constantUsersPerSec(25.0).during(Duration.ofMinutes(5)),
-                constantUsersPerSec(50.0).during(Duration.ofMinutes(5))
+                constantUsersPerSec(5.0).during(Duration.ofMinutes(2)),
+                constantUsersPerSec(10.0).during(Duration.ofMinutes(2)),
+                constantUsersPerSec(25.0).during(Duration.ofMinutes(2)),
+                constantUsersPerSec(50.0).during(Duration.ofMinutes(2))
             )
         ).protocols(kafkaConf)
     }

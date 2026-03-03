@@ -5,6 +5,8 @@ object Vars {
     fun randomInn(): String{
         return (1..12).map {(0..9).random()}.joinToString("")
     }
+
+
     fun randomFullName(): String {
         val maleFirstNames = listOf("Александр", "Максим", "Сергей", "Андрей",
             "Алексей", "Артём", "Илья", "Кирилл", "Михаил",
