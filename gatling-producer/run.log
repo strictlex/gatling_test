@@ -1,0 +1,544 @@
+Initialized native services in: /Users/emka/.gradle/native
+Initialized jansi services in: /Users/emka/.gradle/native
+Found daemon DaemonInfo{pid=46235, address=[b84db6fa-4d55-4658-89a8-048db414948d port:62111, addresses:[/127.0.0.1]], state=Idle, lastBusy=1772533865376, context=DefaultDaemonContext[uid=9a064058-c685-412a-801e-9587284bf4e5,javaHome=/opt/homebrew/Cellar/openjdk/25.0.2/libexec/openjdk.jdk/Contents/Home,javaVersion=25,javaVendor=Homebrew,daemonRegistryDir=/Users/emka/.gradle/daemon,pid=46235,idleTimeout=10800000,priority=NORMAL,applyInstrumentationAgent=true,nativeServicesMode=ENABLED,daemonOpts=-XX:MaxMetaspaceSize=384m,-XX:+HeapDumpOnOutOfMemoryError,-Xms256m,-Xmx512m,-Dfile.encoding=UTF-8,-Duser.country=RU,-Duser.language=ru,-Duser.variant]} however its context does not match the desired criteria.
+JVM is incompatible.
+Wanted: DaemonRequestContext{jvmCriteria=/Users/emka/Library/Java/JavaVirtualMachines/ms-17.0.15/Contents/Home (no Daemon JVM specified, using current Java home), daemonOpts=[-XX:MaxMetaspaceSize=384m, -XX:+HeapDumpOnOutOfMemoryError, -Xms256m, -Xmx512m, -Dfile.encoding=UTF-8, -Duser.country=RU, -Duser.language=ru, -Duser.variant], applyInstrumentationAgent=true, nativeServicesMode=ENABLED, priority=NORMAL}
+Actual: DefaultDaemonContext[uid=9a064058-c685-412a-801e-9587284bf4e5,javaHome=/opt/homebrew/Cellar/openjdk/25.0.2/libexec/openjdk.jdk/Contents/Home,javaVersion=25,javaVendor=Homebrew,daemonRegistryDir=/Users/emka/.gradle/daemon,pid=46235,idleTimeout=10800000,priority=NORMAL,applyInstrumentationAgent=true,nativeServicesMode=ENABLED,daemonOpts=-XX:MaxMetaspaceSize=384m,-XX:+HeapDumpOnOutOfMemoryError,-Xms256m,-Xmx512m,-Dfile.encoding=UTF-8,-Duser.country=RU,-Duser.language=ru,-Duser.variant]
+
+  Looking for a different daemon...
+The client will now receive all logging from the daemon (pid: 46380). The daemon log file: /Users/emka/.gradle/daemon/9.3.1/daemon-46380.out.log
+Starting 22nd build in daemon [uptime: 24 mins 8.54 secs, performance: 100%, GC rate: 0.00/s, heap usage: 0% of 512 MiB, non-heap usage: 43% of 384 MiB]
+Using 8 worker leases.
+Operational build model parameters: {requiresToolingModels=false, parallelProjectExecution=false, configureOnDemand=false, configurationCache=false, configurationCacheParallelStore=false, configurationCacheParallelLoad=true, isolatedProjects=false, parallelProjectConfiguration=false, intermediateModelCache=false, parallelToolingApiActions=false, invalidateCoupledProjects=false, modelAsProjectDependency=false, resilientModelBuilding=false}
+Now considering [/Volumes/EMKA/IT/Performance Lab/Школа/ТЗ/gatling-producer] as hierarchies to watch
+Watching the file system is configured to be enabled if available
+File system watching is active
+Starting Build
+Settings evaluated using settings file '/Volumes/EMKA/IT/Performance Lab/Школа/ТЗ/gatling-producer/settings.gradle.kts'.
+Projects loaded. Root project using build file '/Volumes/EMKA/IT/Performance Lab/Школа/ТЗ/gatling-producer/build.gradle.kts'.
+Included projects: [root project 'gatling-producer']
+Starting process 'command '/usr/libexec/java_home''. Working directory: /Users/emka/.gradle/daemon/9.3.1 Command: /usr/libexec/java_home -V
+Path for java installation '/Users/emka/Library/Java/JavaVirtualMachines/amazon-corretto-17.jdk/Contents/Home' (IntelliJ) auto-detected does not contain a java executable
+Successfully started process 'command '/usr/libexec/java_home''
+
+> Configure project :
+Evaluating root project 'gatling-producer' using build file '/Volumes/EMKA/IT/Performance Lab/Школа/ТЗ/gatling-producer/build.gradle.kts'.
+Resolved plugin [id: 'org.jetbrains.kotlin.jvm', version: '1.9.24']
+Resolved plugin [id: 'io.gatling.gradle', version: '3.15.0']
+Using Kotlin Gradle Plugin gradle82 variant
+kotlin scripting plugin: created the scripting discovery configuration: kotlinScriptDef
+kotlin scripting plugin: created the scripting discovery configuration: testKotlinScriptDef
+kotlin scripting plugin: created the scripting discovery configuration: gatlingKotlinScriptDef
+All projects evaluated.
+Task name matched 'gatlingRun'
+Selected primary task 'gatlingRun' from project :
+Tasks to be executed: [task ':checkKotlinGradlePluginConfigurationErrors', task ':compileKotlin', task ':compileJava', task ':processResources', task ':classes', task ':compileTestKotlin', task ':compileTestJava', task ':processTestResources', task ':testClasses', task ':compileGatlingKotlin', task ':compileGatlingJava', task ':processGatlingResources', task ':gatlingClasses', task ':gatlingRun']
+Tasks that were excluded: []
+Resolve mutations for :checkKotlinGradlePluginConfigurationErrors (Thread[Execution worker,5,main]) started.
+:checkKotlinGradlePluginConfigurationErrors (Thread[Execution worker,5,main]) started.
+
+> Task :checkKotlinGradlePluginConfigurationErrors
+Caching disabled for task ':checkKotlinGradlePluginConfigurationErrors' because:
+  Build cache is disabled
+Task ':checkKotlinGradlePluginConfigurationErrors' is not up-to-date because:
+  Task has not declared any outputs despite executing actions.
+Resolve mutations for :compileKotlin (Thread[Execution worker,5,main]) started.
+:compileKotlin (Thread[Execution worker,5,main]) started.
+
+> Task :compileKotlin NO-SOURCE
+Skipping task ':compileKotlin' as it has no source files and no previous output files.
+Resolve mutations for :compileJava (Thread[Execution worker,5,main]) started.
+:compileJava (Thread[Execution worker,5,main]) started.
+
+> Task :compileJava NO-SOURCE
+Skipping task ':compileJava' as it has no source files and no previous output files.
+Resolve mutations for :processResources (Thread[Execution worker,5,main]) started.
+:processResources (Thread[Execution worker,5,main]) started.
+
+> Task :processResources NO-SOURCE
+Skipping task ':processResources' as it has no source files and no previous output files.
+Resolve mutations for :classes (Thread[Execution worker,5,main]) started.
+:classes (Thread[Execution worker,5,main]) started.
+
+> Task :classes UP-TO-DATE
+Skipping task ':classes' as it has no actions.
+Resolve mutations for :compileTestKotlin (Thread[Execution worker,5,main]) started.
+:compileTestKotlin (Thread[Execution worker,5,main]) started.
+
+> Task :compileTestKotlin NO-SOURCE
+Skipping task ':compileTestKotlin' as it has no source files and no previous output files.
+Resolve mutations for :compileTestJava (Thread[Execution worker,5,main]) started.
+:compileTestJava (Thread[Execution worker,5,main]) started.
+
+> Task :compileTestJava NO-SOURCE
+Skipping task ':compileTestJava' as it has no source files and no previous output files.
+Resolve mutations for :processTestResources (Thread[Execution worker,5,main]) started.
+:processTestResources (Thread[Execution worker,5,main]) started.
+
+> Task :processTestResources NO-SOURCE
+Skipping task ':processTestResources' as it has no source files and no previous output files.
+Resolve mutations for :testClasses (Thread[Execution worker,5,main]) started.
+:testClasses (Thread[Execution worker,5,main]) started.
+
+> Task :testClasses UP-TO-DATE
+Skipping task ':testClasses' as it has no actions.
+Resolve mutations for :compileGatlingKotlin (Thread[Execution worker,5,main]) started.
+:compileGatlingKotlin (Thread[Execution worker,5,main]) started.
+
+> Task :compileGatlingKotlin UP-TO-DATE
+Caching disabled for task ':compileGatlingKotlin' because:
+  Build cache is disabled
+Skipping task ':compileGatlingKotlin' as it is up-to-date.
+Resolve mutations for :compileGatlingJava (Thread[Execution worker,5,main]) started.
+:compileGatlingJava (Thread[Execution worker,5,main]) started.
+
+> Task :compileGatlingJava NO-SOURCE
+Skipping task ':compileGatlingJava' as it has no source files and no previous output files.
+Resolve mutations for :processGatlingResources (Thread[Execution worker,5,main]) started.
+:processGatlingResources (Thread[Execution worker,5,main]) started.
+
+> Task :processGatlingResources NO-SOURCE
+Skipping task ':processGatlingResources' as it has no source files and no previous output files.
+Resolve mutations for :gatlingClasses (Thread[Execution worker,5,main]) started.
+:gatlingClasses (Thread[Execution worker,5,main]) started.
+
+> Task :gatlingClasses UP-TO-DATE
+Skipping task ':gatlingClasses' as it has no actions.
+Resolve mutations for :gatlingRun (Thread[Execution worker,5,main]) started.
+:gatlingRun (Thread[Execution worker,5,main]) started.
+
+> Task :gatlingRun FAILED
+Caching disabled for task ':gatlingRun' because:
+  Build cache is disabled
+  Caching has not been enabled for the task
+Task ':gatlingRun' is not up-to-date because:
+  Task.upToDateWhen is false.
+Running simulation simulations.KafkaProducerSimulation.
+Starting process 'command '/Users/emka/Library/Java/JavaVirtualMachines/ms-17.0.15/Contents/Home/bin/java''. Working directory: /Volumes/EMKA/IT/Performance Lab/Школа/ТЗ/gatling-producer Command: /Users/emka/Library/Java/JavaVirtualMachines/ms-17.0.15/Contents/Home/bin/java -Dorg.gradle.appname=gradlew -XX:+HeapDumpOnOutOfMemoryError -XX:MaxInlineLevel=20 -XX:MaxTrivialSize=12 --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/jdk.internal.misc=ALL-UNNAMED -Xmx1G -Dfile.encoding=UTF-8 -Duser.country=RU -Duser.language=ru -Duser.variant -cp /Volumes/EMKA/IT/Performance Lab/Школа/ТЗ/gatling-producer/build/classes/java/main:/Volumes/EMKA/IT/Performance Lab/Школа/ТЗ/gatling-producer/build/classes/kotlin/main:/Volumes/EMKA/IT/Performance Lab/Школа/ТЗ/gatling-producer/build/resources/main:/Volumes/EMKA/IT/Performance Lab/Школа/ТЗ/gatling-producer/build/classes/java/test:/Volumes/EMKA/IT/Performance Lab/Школа/ТЗ/gatling-producer/build/classes/kotlin/test:/Volumes/EMKA/IT/Performance Lab/Школа/ТЗ/gatling-producer/build/resources/test:/Volumes/EMKA/IT/Performance Lab/Школа/ТЗ/gatling-producer/build/classes/java/gatling:/Volumes/EMKA/IT/Performance Lab/Школа/ТЗ/gatling-producer/build/classes/kotlin/gatling:/Volumes/EMKA/IT/Performance Lab/Школа/ТЗ/gatling-producer/build/resources/gatling:/Users/emka/.gradle/caches/modules-2/files-2.1/io.gatling.highcharts/gatling-charts-highcharts/3.15.0/d920405668c8d61422170f82ed0567d1888ae854/gatling-charts-highcharts-3.15.0.jar:/Users/emka/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.9.24/9928532f12c66ad816a625b3f9984f8368ca6d2b/kotlin-stdlib-1.9.24.jar:/Users/emka/.gradle/caches/modules-2/files-2.1/org.galaxio/gatling-kafka-plugin_2.13/0.14.2/e9ff3a1e8d22707d15c2d41eee9528c87ac5306c/gatling-kafka-plugin_2.13-0.14.2.jar:/Users/emka/.gradle/caches/modules-2/files-2.1/io.gatling/gatling-app/3.15.0/e7984fe7e1824f1d31f5a7fd1be90a664750bd/gatling-app-3.15.0.jar:/Users/emka/.gradle/caches/modules-2/files-2.1/io.gatling/gatling-recorder/3.15.0/5f81e88da09222a5f07eec1e1c2f48dfd8f30169/gatling-recorder-3.15.0.jar:/Users/emka/.gradle/caches/modules-2/files-2.1/org.apache.kafka/kafka-streams-scala_2.13/7.9.5-ce/548c49aa98ae07d8333d7cec9355e38cf5a7bd9a/kafka-streams-scala_2.13-7.9.5-ce.jar:/Users/emka/.gradle/caches/modules-2/files-2.1/io.gatling/gatling-http-java/3.15.0/c43e001d38f013e68a196df2ef4af1865f34f628/gatling-http-java-3.15.0.jar:/Users/emka/.gradle/caches/modules-2/files-2.1/io.gatling/gatling-jms-java/3.15.0/2e7b055708db72f75d244b32d1d8c1a660179145/gatling-jms-java-3.15.0.jar:/Users/emka/.gradle/caches/modules-2/files-2.1/io.gatling/gatling-jdbc-java/3.15.0/dadcd94bbb1fc87043a58117facdbb46f4dbb98/gatling-jdbc-java-3.15.0.jar:/Users/emka/.gradle/caches/modules-2/files-2.1/io.gatling/gatling-redis-java/3.15.0/392ab89f67ef6451bfc2fee50e7e4f1c4c32dbb6/gatling-redis-java-3.15.0.jar:/Users/emka/.gradle/caches/modules-2/files-2.1/io.gatling/gatling-core-java/3.15.0/b0409de878454d87cdf5046537001ce1787e2e45/gatling-core-java-3.15.0.jar:/Users/emka/.gradle/caches/modules-2/files-2.1/io.gatling/gatling-http/3.15.0/63eebb7012c3087787f07c26c9b6396b86e02378/gatling-http-3.15.0.jar:/Users/emka/.gradle/caches/modules-2/files-2.1/io.gatling/gatling-jms/3.15.0/cac8ebd3922efa01615131b3bc2f99c39bbedfe7/gatling-jms-3.15.0.jar:/Users/emka/.gradle/caches/modules-2/files-2.1/io.gatling/gatling-jdbc/3.15.0/a52a56b4efc0522dd1096b9daf004e31c71a677e/gatling-jdbc-3.15.0.jar:/Users/emka/.gradle/caches/modules-2/files-2.1/io.gatling/gatling-redis/3.15.0/ee2d40f2d3ec5de7babb052df012b03a343cf5cb/gatling-redis-3.15.0.jar:/Users/emka/.gradle/caches/modules-2/files-2.1/io.gatling/gatling-charts/3.15.0/8202440bf95bbf7676d11d3b350880bf585b7308/gatling-charts-3.15.0.jar:/Users/emka/.gradle/caches/modules-2/files-2.1/io.gatling/gatling-core/3.15.0/55f9a89bda749b64002c72c09c49f3f0cec380c2/gatling-core-3.15.0.jar:/Users/emka/.gradle/caches/modules-2/files-2.1/org.scala-lang.modules/scala-swing_2.13/3.0.0/a090a766a897e7a72d4fa887f941885b74ef9092/scala-swing_2.13-3.0.0.jar:/Users/emka/.gradle/caches/modules-2/files-2.1/io.gatling/gatling-http-client/3.15.0/4eb1edc19a2fcf5dd084cc8f664be422ff02ddaf/gatling-http-client-3.15.0.jar:/Users/emka/.gradle/caches/modules-2/files-2.1/io.gatling/gatling-netty-util/3.15.0/c96bf46c091fc3cfeb2f77f72841754255b9311e/gatling-netty-util-3.15.0.jar:/Users/emka/.gradle/caches/modules-2/files-2.1/io.gatling/gatling-quicklens/3.15.0/5f796b8a858550253a70f86960e54f297fbe5f5/gatling-quicklens-3.15.0.jar:/Users/emka/.gradle/caches/modules-2/files-2.1/io.gatling/gatling-commons/3.15.0/f2aa393032ac0c1e89119fbbf84341cddc898c85/gatling-commons-3.15.0.jar:/Users/emka/.gradle/caches/modules-2/files-2.1/io.gatling/gatling-jsonpath/3.15.0/28365f5f5d09ccab0464b6cefcae0aaf09756dfb/gatling-jsonpath-3.15.0.jar:/Users/emka/.gradle/caches/modules-2/files-2.1/io.gatling/gatling-shared-model_2.13/0.1.3/6dca70fea3004e7a7c2a1664e40eb2e32de83eed/gatling-shared-model_2.13-0.1.3.jar:/Users/emka/.gradle/caches/modules-2/files-2.1/org.scala-lang.modules/scala-parser-combinators_2.13/2.4.0/4c21da00e1416078ba0bf4a2be63aa86de92753c/scala-parser-combinators_2.13-2.4.0.jar:/Users/emka/.gradle/caches/modules-2/files-2.1/com.github.scopt/scopt_2.13/4.1.0/db670826c344b5c861620b0e329d86d2f9868285/scopt_2.13-4.1.0.jar:/Users/emka/.gradle/caches/modules-2/files-2.1/net.debasishg/redisclient_2.13/3.42/cfc6baf80ad1c7d026401d5e579f51ebc00423fe/redisclient_2.13-3.42.jar:/Users/emka/.gradle/caches/modules-2/files-2.1/io.gatling/gatling-shared-util_2.13/0.0.14/c521665255d2aa92264b635cf736ea61e433fa50/gatling-shared-util_2.13-0.0.14.jar:/Users/emka/.gradle/caches/modules-2/files-2.1/io.github.metarank/cfor_2.13/0.3/b249cb8c108d1d3b1f623b15cd9b4729d3c752b7/cfor_2.13-0.3.jar:/Users/emka/.gradle/caches/modules-2/files-2.1/com.typesafe.scala-logging/scala-logging_2.13/3.9.6/f887ff84d87e3e9c89e28f8a4064bf74d1eacbb4/scala-logging_2.13-3.9.6.jar:/Users/emka/.gradle/caches/modules-2/files-2.1/io.suzaku/boopickle_2.13/1.5.0/d6e644cdad245b19f42433ddfaaacd9a04ed1e76/boopickle_2.13-1.5.0.jar:/Users/emka/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-reflect/2.13.16/4958d4e43faf2d6d66f18ce2aa9a3e5ba141f87b/scala-reflect-2.13.16.jar:/Users/emka/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.13.18/eb2086988c25b08705472cc750654570900362e5/scala-library-2.13.18.jar:/Users/emka/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar:/Users/emka/.gradle/caches/modules-2/files-2.1/org.apache.kafka/kafka-streams/7.9.5-ce/d47bd239374ace100f6f02030c8d0c01e6bc5f50/kafka-streams-7.9.5-ce.jar:/Users/emka/.gradle/caches/modules-2/files-2.1/io.confluent/kafka-streams-avro-serde/7.9.5/c9921011bc9730050b6357e8da9cbe5805052fbf/kafka-streams-avro-serde-7.9.5.jar:/Users/emka/.gradle/caches/modules-2/files-2.1/io.confluent/kafka-avro-serializer/7.9.5/f24ad24ed4e45ca6b1c870cdf8983662bc7f2f99/kafka-avro-serializer-7.9.5.jar:/Users/emka/.gradle/caches/modules-2/files-2.1/io.confluent/kafka-schema-serializer/7.9.5/216b3e6d3022b326a661044c99d0bc06a0aec0b7/kafka-schema-serializer-7.9.5.jar:/Users/emka/.gradle/caches/modules-2/files-2.1/io.confluent/kafka-schema-registry-client/7.9.5/781297a71af4716f054e4d63868db2aba94ac243/kafka-schema-registry-client-7.9.5.jar:/Users/emka/.gradle/caches/modules-2/files-2.1/org.apache.kafka/kafka-clients/7.9.5-ce/462398e6cb65500fe305fdf8ae4f23eb350ea8f0/kafka-clients-7.9.5-ce.jar:/Users/emka/.gradle/caches/modules-2/files-2.1/org.apache.avro/avro/1.12.1/1c6294ac1d67ce396f51827c87ba2e01de304500/avro-1.12.1.jar:/Users/emka/.gradle/caches/modules-2/files-2.1/io.gatling/gatling-shared-cli/0.0.7/7da37fd9fdc9058be205058783c1b38ea6e50852/gatling-shared-cli-0.0.7.jar:/Users/emka/.gradle/caches/modules-2/files-2.1/io.burt/jmespath-jackson/0.6.0/3dbb4c603ab00df975b273a7e8a1fb10e64367c6/jmespath-jackson-0.6.0.jar:/Users/emka/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.dataformat/jackson-dataformat-csv/2.21.1/b62877fbda7385a2ec4059f5cb2d54f8d323dad0/jackson-dataformat-csv-2.21.1.jar:/Users/emka/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.datatype/jackson-datatype-jdk8/2.21.1/1c7b514d1608e560c0ccddacc63f5594f3ca19c9/jackson-datatype-jdk8-2.21.1.jar:/Users/emka/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.21.1/47b013fc85dbb819f3ba51e95a5560d0f1c4121c/jackson-core-2.21.1.jar:/Users/emka/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.21.1/5615fb77652bfd386d87b95a1d663e1c0e38b372/jackson-databind-2.21.1.jar:/Users/emka/.gradle/caches/modules-2/files-2.1/io.gatling/gatling-recorder-bc-shaded/1.83.0/a96e5634a555d4b856a2604adcf977a8ffe1a9b2/gatling-recorder-bc-shaded-1.83.0.jar:/Users/emka/.gradle/caches/modules-2/files-2.1/io.netty/netty-handler-proxy/4.2.10.Final/4bbc9268168336caee75955a53b37867c99555c7/netty-handler-proxy-4.2.10.Final.jar:/Users/emka/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec-http2/4.2.10.Final/ce03862f1ce5e4bd5a8af688ac9f5146a8192867/netty-codec-http2-4.2.10.Final.jar:/Users/emka/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec-http/4.2.10.Final/93e6b3df76177423742ed10d48612b59e46f0c8c/netty-codec-http-4.2.10.Final.jar:/Users/emka/.gradle/caches/modules-2/files-2.1/com.github.luben/zstd-jni/1.5.6-4/ba9e303e0b5e94cdd0017390d7d8c06f47fd61f7/zstd-jni-1.5.6-4.jar:/Users/emka/.gradle/caches/modules-2/files-2.1/org.lz4/lz4-java/1.8.0/4b986a99445e49ea5fbf5d149c4b63f6ed6c6780/lz4-java-1.8.0.jar:/Users/emka/.gradle/caches/modules-2/files-2.1/org.xerial.snappy/snappy-java/1.1.10.5/ac605269f3598506196e469f1fb0d7ed5c55059e/snappy-java-1.1.10.5.jar:/Users/emka/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-compress/1.28.0/e482f2c7a88dac3c497e96aa420b6a769f59c8d7/commons-compress-1.28.0.jar:/Users/emka/.gradle/caches/modules-2/files-2.1/io.confluent/common-utils/7.9.5/bf19e909e9281c3bc6e4aa56e6aac169fc10589f/common-utils-7.9.5.jar:/Users/emka/.gradle/caches/modules-2/files-2.1/io.pebbletemplates/pebble/4.1.1/3ef33f88360ab0c54e201933e59a490547e2834c/pebble-4.1.1.jar:/Users/emka/.gradle/caches/modules-2/files-2.1/org.jodd/jodd-lagarto/6.0.6/a402ef17195531647c1d6f74f64963cfa5729a19/jodd-lagarto-6.0.6.jar:/Users/emka/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-classic/1.5.32/2b1042c50f508f2eb402bd4d22ccbdf94cc37d2e/logback-classic-1.5.32.jar:/Users/emka/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/2.0.17/d9e58ac9c7779ba3bf8142aff6c830617a7fe60f/slf4j-api-2.0.17.jar:/Users/emka/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/32.0.1-jre/6e5d51a72d142f2d40a57dfb897188b36a95b489/guava-32.0.1-jre.jar:/Users/emka/.gradle/caches/modules-2/files-2.1/io.confluent/logredactor/1.0.12/89b8fb61626de8ca579069880507a1626fb3de92/logredactor-1.0.12.jar:/Users/emka/.gradle/caches/modules-2/files-2.1/org.simpleflatmapper/lightning-csv/9.0.2/c336eaef02b1eab5f1412324b3efef28174da1c0/lightning-csv-9.0.2.jar:/Users/emka/.gradle/caches/modules-2/files-2.1/com.github.ben-manes.caffeine/caffeine/3.2.3/c097f0f6d21a0e6db88ea55836e26419b30dfe19/caffeine-3.2.3.jar:/Users/emka/.gradle/caches/modules-2/files-2.1/io.netty/netty-resolver-dns-native-macos/4.2.10.Final/2248e8e4c2515e6a6cd39dc1e047a6db27853d7e/netty-resolver-dns-native-macos-4.2.10.Final-osx-x86_64.jar:/Users/emka/.gradle/caches/modules-2/files-2.1/io.netty/netty-resolver-dns-native-macos/4.2.10.Final/9ea74f75848235a70104a5b198d8555b4504a6f5/netty-resolver-dns-native-macos-4.2.10.Final-osx-aarch_64.jar:/Users/emka/.gradle/caches/modules-2/files-2.1/io.netty/netty-resolver-dns-classes-macos/4.2.10.Final/5a651824c09feba5cee9c99bd0b46a4ffbad1ad4/netty-resolver-dns-classes-macos-4.2.10.Final.jar:/Users/emka/.gradle/caches/modules-2/files-2.1/io.netty/netty-resolver-dns/4.2.10.Final/7424b52366c642e833e4cd5846c6ef07d05eb5c2/netty-resolver-dns-4.2.10.Final.jar:/Users/emka/.gradle/caches/modules-2/files-2.1/io.netty/netty-handler/4.2.10.Final/730b1c0df761ecae4de489b974efe29135d996f5/netty-handler-4.2.10.Final.jar:/Users/emka/.gradle/caches/modules-2/files-2.1/io.netty/netty-tcnative-boringssl-static/2.0.75.Final/c2718a8b99999019d437a703d9bf429f99c465ac/netty-tcnative-boringssl-static-2.0.75.Final.jar:/Users/emka/.gradle/caches/modules-2/files-2.1/io.netty/netty-tcnative-boringssl-static/2.0.75.Final/a8d84e5f46da4bfd7ba1e008597b541afbfd0140/netty-tcnative-boringssl-static-2.0.75.Final-linux-x86_64.jar:/Users/emka/.gradle/caches/modules-2/files-2.1/io.netty/netty-tcnative-boringssl-static/2.0.75.Final/6ecb3526723cbf40a175127029cfb04fba45bf00/netty-tcnative-boringssl-static-2.0.75.Final-linux-aarch_64.jar:/Users/emka/.gradle/caches/modules-2/files-2.1/io.netty/netty-tcnative-boringssl-static/2.0.75.Final/13ab40e0cc1c242c56a9aeafe1a5abbc8972a6cb/netty-tcnative-boringssl-static-2.0.75.Final-osx-x86_64.jar:/Users/emka/.gradle/caches/modules-2/files-2.1/io.netty/netty-tcnative-boringssl-static/2.0.75.Final/bdd3fc714d231f5c125e83a5a2b746fc20a1024d/netty-tcnative-boringssl-static-2.0.75.Final-osx-aarch_64.jar:/Users/emka/.gradle/caches/modules-2/files-2.1/io.netty/netty-tcnative-boringssl-static/2.0.75.Final/ac0fba41d296da3f1b67dd82426ecc0284246a49/netty-tcnative-boringssl-static-2.0.75.Final-windows-x86_64.jar:/Users/emka/.gradle/caches/modules-2/files-2.1/io.netty/netty-tcnative-classes/2.0.75.Final/b446e6fab7af1bab12bf01a4213627f8d0a2e6ba/netty-tcnative-classes-2.0.75.Final.jar:/Users/emka/.gradle/caches/modules-2/files-2.1/net.sf.saxon/Saxon-HE/12.9/1397a02bd22c63db3e902b28b23c59009fa3b5c4/Saxon-HE-12.9.jar:/Users/emka/.gradle/caches/modules-2/files-2.1/org.xmlresolver/xmlresolver/6.0.21/9e20c43ab8e0a772b9a403eeb9b550268e71d345/xmlresolver-6.0.21.jar:/Users/emka/.gradle/caches/modules-2/files-2.1/org.xmlresolver/xmlresolver/6.0.21/87c3d58a17e3018c1793c014d08cc64c7032818c/xmlresolver-6.0.21-data.jar:/Users/emka/.gradle/caches/modules-2/files-2.1/org.jodd/jodd-util/6.3.0/1568f4d0f60dee75c8881fb0ebe44f0ab9fa3b38/jodd-util-6.3.0.jar:/Users/emka/.gradle/caches/modules-2/files-2.1/net.jodah/typetools/0.6.3/a01aaa6ddaea9ec07ec4f209487b7a46a526283a/typetools-0.6.3.jar:/Users/emka/.gradle/caches/modules-2/files-2.1/org.jspecify/jspecify/1.0.0/7425a601c1c7ec76645a78d22b8c6a627edee507/jspecify-1.0.0.jar:/Users/emka/.gradle/caches/modules-2/files-2.1/jakarta.jms/jakarta.jms-api/3.1.0/e194cf91a3f908e4846542849ac11a8e0b3c68ad/jakarta.jms-api-3.1.0.jar:/Users/emka/.gradle/caches/modules-2/files-2.1/com.eatthepath/fast-uuid/0.2.0/d20659178a2c2424a7e9da7d99d717d03ec6b311/fast-uuid-0.2.0.jar:/Users/emka/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-pool2/2.13.1/cf7e8c0242d4c483c42c083b8188ab360ab60f9a/commons-pool2-2.13.1.jar:/Users/emka/.gradle/caches/modules-2/files-2.1/com.tdunning/t-digest/3.3/5e96c4fd7d63b05828cf5ef41da20649195b1b78/t-digest-3.3.jar:/Users/emka/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.21/b1bc1868bf02dc0bd6c7836257a036a331005309/jackson-annotations-2.21.jar:/Users/emka/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec-compression/4.2.10.Final/5cc88546ee2ac730041eb33dff868037c8e85e78/netty-codec-compression-4.2.10.Final.jar:/Users/emka/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec-socks/4.2.10.Final/e5d86f1a262144797acdd875f8a3ca55f22125b2/netty-codec-socks-4.2.10.Final.jar:/Users/emka/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec-dns/4.2.10.Final/693b6a173f4e510c00d784f80d309c25ba547aaa/netty-codec-dns-4.2.10.Final.jar:/Users/emka/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec-base/4.2.10.Final/e81b71d93024736f174397bff1fdd590e0aa9c44/netty-codec-base-4.2.10.Final.jar:/Users/emka/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport-native-epoll/4.2.10.Final/e629961393a508daab9480f6f2ae7b79deb5ea66/netty-transport-native-epoll-4.2.10.Final-linux-x86_64.jar:/Users/emka/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport-native-epoll/4.2.10.Final/1843972edec1f3ad4f58bdffa491808d849f6487/netty-transport-native-epoll-4.2.10.Final-linux-aarch_64.jar:/Users/emka/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport-native-io_uring/4.2.10.Final/cabdfb2ef7d87909e13831ec0af1e6e91ae2012b/netty-transport-native-io_uring-4.2.10.Final-linux-x86_64.jar:/Users/emka/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport-native-io_uring/4.2.10.Final/e2408d09f57d3e20e923c9a1d48ae7b1bf7e226b/netty-transport-native-io_uring-4.2.10.Final-linux-aarch_64.jar:/Users/emka/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport-classes-epoll/4.2.10.Final/6d3396999238ce440c15c5258381f23b5f6083f3/netty-transport-classes-epoll-4.2.10.Final.jar:/Users/emka/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport-classes-io_uring/4.2.10.Final/32f165751c7a0c2ab6e52c437eae30e4a669ddbf/netty-transport-classes-io_uring-4.2.10.Final.jar:/Users/emka/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport-native-unix-common/4.2.10.Final/8a8495c494ab2f5b0fdd93d2f670a1ea50a6b7de/netty-transport-native-unix-common-4.2.10.Final.jar:/Users/emka/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport/4.2.10.Final/d9ce85a6b94fe584b0dec4b07230ac455ff975c1/netty-transport-4.2.10.Final.jar:/Users/emka/.gradle/caches/modules-2/files-2.1/io.netty/netty-buffer/4.2.10.Final/b9b67175347d45b1caa5525440258904e01fac22/netty-buffer-4.2.10.Final.jar:/Users/emka/.gradle/caches/modules-2/files-2.1/io.netty/netty-resolver/4.2.10.Final/888daac4608a9b5fa1a74763e0de88d0dbf459a4/netty-resolver-4.2.10.Final.jar:/Users/emka/.gradle/caches/modules-2/files-2.1/io.netty/netty-common/4.2.10.Final/c55e97d9bd061a2d88418d2d831e1fa39cb975e7/netty-common-4.2.10.Final.jar:/Users/emka/.gradle/caches/modules-2/files-2.1/org.rocksdb/rocksdbjni/7.9.2/6409b667493149191b09fe1fce94bada6096a3e9/rocksdbjni-7.9.2.jar:/Users/emka/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.19.0/8c0dbe3ae883fceda9b50a6c76e745e548073388/commons-codec-1.19.0.jar:/Users/emka/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.20.0/36f3474daec2849c149e877614e7f979b2082cd2/commons-io-2.20.0.jar:/Users/emka/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.18.0/fb14946f0e39748a6571de0635acbe44e7885491/commons-lang3-3.18.0.jar:/Users/emka/.gradle/caches/modules-2/files-2.1/org.yaml/snakeyaml/2.0/3aab2116756442bf0d4cd1c089b24d34c3baa253/snakeyaml-2.0.jar:/Users/emka/.gradle/caches/modules-2/files-2.1/io.swagger.core.v3/swagger-annotations/2.1.10/1eec58d3db42dcefac76fa47211812c4782b1342/swagger-annotations-2.1.10.jar:/Users/emka/.gradle/caches/modules-2/files-2.1/com.google.guava/failureaccess/1.0.1/1dcf1de382a0bf95a3d8b0849546c88bac1292c9/failureaccess-1.0.1.jar:/Users/emka/.gradle/caches/modules-2/files-2.1/com.google.guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/b421526c5f297295adef1c886e5246c39d4ac629/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/emka/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.2/25ea2e8b0c338a877313bd4672d3fe056ea78f0d/jsr305-3.0.2.jar:/Users/emka/.gradle/caches/modules-2/files-2.1/org.checkerframework/checker-qual/3.33.0/de2b60b62da487644fc11f734e73c8b0b431238f/checker-qual-3.33.0.jar:/Users/emka/.gradle/caches/modules-2/files-2.1/com.google.errorprone/error_prone_annotations/2.43.0/a4f9062316c31850b03085e45717f564fd563ceb/error_prone_annotations-2.43.0.jar:/Users/emka/.gradle/caches/modules-2/files-2.1/com.google.j2objc/j2objc-annotations/2.8/c85270e307e7b822f1086b93689124b89768e273/j2objc-annotations-2.8.jar:/Users/emka/.gradle/caches/modules-2/files-2.1/com.google.re2j/re2j/1.6/a13e879fd7971738d06020fefeb108cc14e14169/re2j-1.6.jar:/Users/emka/.gradle/caches/modules-2/files-2.1/io.confluent/logredactor-metrics/1.0.12/7123728b9c428e26151e767ee65869c62373a6f6/logredactor-metrics-1.0.12.jar:/Users/emka/.gradle/caches/modules-2/files-2.1/com.eclipsesource.minimal-json/minimal-json/0.9.5/8134f8babbfbb18373110ea0b5871fd34b9c77bf/minimal-json-0.9.5.jar:/Users/emka/.gradle/caches/modules-2/files-2.1/com.typesafe/config/1.4.5/cc25b497ded7068a861517a815546fb472f9e58/config-1.4.5.jar:/Users/emka/.gradle/caches/modules-2/files-2.1/org.simpleflatmapper/sfm-util/9.0.2/34b03d3cbbe93ee587f785531ff6813916b287db/sfm-util-9.0.2.jar:/Users/emka/.gradle/caches/modules-2/files-2.1/org.unbescape/unbescape/1.1.6.RELEASE/7b90360afb2b860e09e8347112800d12c12b2a13/unbescape-1.1.6.RELEASE.jar:/Users/emka/.gradle/caches/modules-2/files-2.1/io.burt/jmespath-core/0.6.0/9a80e3630ea9f737de3ed54ed815dee6b53e65a5/jmespath-core-0.6.0.jar:/Users/emka/.gradle/caches/modules-2/files-2.1/com.aayushatharva.brotli4j/brotli4j/1.20.0/3aa09ba6d7e2aab17f47bc69d70c8bd915c8f2f7/brotli4j-1.20.0.jar:/Users/emka/.gradle/caches/modules-2/files-2.1/com.aayushatharva.brotli4j/native-linux-x86_64/1.20.0/e33ffeed077d3ea65ff010717033638c591b9dc2/native-linux-x86_64-1.20.0.jar:/Users/emka/.gradle/caches/modules-2/files-2.1/com.aayushatharva.brotli4j/native-linux-aarch64/1.20.0/26ec22a61030b91fa68406dbe3c33ad2714cfd1d/native-linux-aarch64-1.20.0.jar:/Users/emka/.gradle/caches/modules-2/files-2.1/com.aayushatharva.brotli4j/native-osx-x86_64/1.20.0/c5cfb6197236e684dcf9e44d04c994db840b6887/native-osx-x86_64-1.20.0.jar:/Users/emka/.gradle/caches/modules-2/files-2.1/com.aayushatharva.brotli4j/native-osx-aarch64/1.20.0/cb16e6f1103953ffdeb1f6c615e5c23d0d09499f/native-osx-aarch64-1.20.0.jar:/Users/emka/.gradle/caches/modules-2/files-2.1/com.aayushatharva.brotli4j/native-windows-x86_64/1.20.0/69d5dbe62161e534cd24e493f5262758bd99fe42/native-windows-x86_64-1.20.0.jar:/Users/emka/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-core/1.5.32/fdfb3ff9a842303d4a95207294a6c6bc64e2605d/logback-core-1.5.32.jar:/Users/emka/.gradle/caches/modules-2/files-2.1/com.aayushatharva.brotli4j/service/1.20.0/272d49369a9302e719c1723f77f5667edf41f9f3/service-1.20.0.jar io.gatling.app.Gatling -s simulations.KafkaProducerSimulation -rf /Volumes/EMKA/IT/Performance Lab/Школа/ТЗ/gatling-producer/build/reports/gatling -l gradle -btv 9.3.1
+Successfully started process 'command '/Users/emka/Library/Java/JavaVirtualMachines/ms-17.0.15/Contents/Home/bin/java''
+14:56:22.111 [main] INFO io.gatling.core.config.GatlingConfiguration$ -- Gatling will try to load 'gatling.conf' config file as ClassLoader resource.
+14:56:22.166 [main] DEBUG io.netty.util.internal.logging.InternalLoggerFactory -- Using SLF4J as the default logging framework
+14:56:22.168 [main] DEBUG io.netty.util.internal.PlatformDependent0 -- Java version: 17
+14:56:22.168 [main] DEBUG io.netty.util.internal.PlatformDependent0 -- -Dio.netty.noUnsafe: false
+14:56:22.168 [main] DEBUG io.netty.util.internal.PlatformDependent0 -- Thread.isVirtual() is not available: 
+14:56:22.169 [main] DEBUG io.netty.util.internal.PlatformDependent0 -- sun.misc.Unsafe.theUnsafe: available
+14:56:22.170 [main] DEBUG io.netty.util.internal.PlatformDependent0 -- sun.misc.Unsafe base methods: all available
+14:56:22.170 [main] DEBUG io.netty.util.internal.PlatformDependent0 -- java.nio.Buffer.address: available
+14:56:22.170 [main] DEBUG io.netty.util.internal.PlatformDependent0 -- direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+14:56:22.170 [main] DEBUG io.netty.util.internal.PlatformDependent0 -- java.nio.Bits.unaligned: available, true
+14:56:22.171 [main] DEBUG io.netty.util.internal.PlatformDependent0 -- jdk.internal.misc.Unsafe.allocateUninitializedArray(int): available
+14:56:22.172 [main] DEBUG io.netty.util.internal.PlatformDependent0 -- java.nio.DirectByteBuffer.<init>(long, {int,long}): unavailable
+14:56:22.172 [main] DEBUG io.netty.util.internal.PlatformDependent -- sun.misc.Unsafe: available
+14:56:22.172 [main] DEBUG io.netty.util.internal.PlatformDependent -- -Dio.netty.tmpdir: /var/folders/ck/skkp5q0d5txdxmsm23t13rwh0000gn/T (java.io.tmpdir)
+14:56:22.172 [main] DEBUG io.netty.util.internal.PlatformDependent -- -Dio.netty.bitMode: 64 (sun.arch.data.model)
+14:56:22.172 [main] DEBUG io.netty.util.internal.PlatformDependent -- Platform: MacOS
+14:56:22.172 [main] DEBUG io.netty.util.internal.PlatformDependent -- -Dio.netty.maxDirectMemory: -1 bytes
+14:56:22.173 [main] DEBUG io.netty.util.internal.CleanerJava9 -- java.nio.ByteBuffer.cleaner(): available
+14:56:22.173 [main] DEBUG io.netty.util.internal.PlatformDependent -- -Dio.netty.noPreferDirect: false
+14:56:22.176 [main] DEBUG io.netty.util.internal.PlatformDependent -- -Dio.netty.jfr.enabled: true
+14:56:22.178 [main] DEBUG io.netty.util.internal.NativeLibraryLoader -- -Dio.netty.native.workdir: /var/folders/ck/skkp5q0d5txdxmsm23t13rwh0000gn/T (io.netty.tmpdir)
+14:56:22.178 [main] DEBUG io.netty.util.internal.NativeLibraryLoader -- -Dio.netty.native.deleteLibAfterLoading: true
+14:56:22.178 [main] DEBUG io.netty.util.internal.NativeLibraryLoader -- -Dio.netty.native.tryPatchShadedId: true
+14:56:22.178 [main] DEBUG io.netty.util.internal.NativeLibraryLoader -- -Dio.netty.native.detectNativeLibraryDuplicates: true
+14:56:22.566 [main] DEBUG io.netty.util.internal.NativeLibraryLoader -- Successfully loaded the library /var/folders/ck/skkp5q0d5txdxmsm23t13rwh0000gn/T/libnetty_tcnative_osx_aarch_642190276619216028800.dylib
+14:56:22.566 [main] DEBUG io.netty.util.internal.NativeLibraryLoader -- Loaded library with name 'netty_tcnative_osx_aarch_64'
+14:56:22.566 [main] DEBUG io.netty.handler.ssl.OpenSsl -- Initialize netty-tcnative using engine: 'default'
+14:56:22.567 [main] DEBUG io.netty.handler.ssl.OpenSsl -- netty-tcnative using native library: BoringSSL
+14:56:22.651 [main] DEBUG io.netty.util.ResourceLeakDetector -- -Dio.netty.leakDetection.level: simple
+14:56:22.651 [main] DEBUG io.netty.util.ResourceLeakDetector -- -Dio.netty.leakDetection.targetRecords: 4
+14:56:22.654 [main] DEBUG io.netty.buffer.AbstractByteBuf -- -Dio.netty.buffer.checkAccessible: true
+14:56:22.654 [main] DEBUG io.netty.buffer.AbstractByteBuf -- -Dio.netty.buffer.checkBounds: true
+14:56:22.654 [main] DEBUG io.netty.util.ResourceLeakDetectorFactory -- Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@72c8e7b
+14:56:22.663 [main] DEBUG io.netty.util.internal.InternalThreadLocalMap -- -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+14:56:22.663 [main] DEBUG io.netty.util.internal.InternalThreadLocalMap -- -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+14:56:22.664 [main] DEBUG io.netty.buffer.PooledByteBufAllocator -- -Dio.netty.allocator.numHeapArenas: 16
+14:56:22.664 [main] DEBUG io.netty.buffer.PooledByteBufAllocator -- -Dio.netty.allocator.numDirectArenas: 16
+14:56:22.664 [main] DEBUG io.netty.buffer.PooledByteBufAllocator -- -Dio.netty.allocator.pageSize: 8192
+14:56:22.664 [main] DEBUG io.netty.buffer.PooledByteBufAllocator -- -Dio.netty.allocator.maxOrder: 9
+14:56:22.664 [main] DEBUG io.netty.buffer.PooledByteBufAllocator -- -Dio.netty.allocator.chunkSize: 4194304
+14:56:22.664 [main] DEBUG io.netty.buffer.PooledByteBufAllocator -- -Dio.netty.allocator.smallCacheSize: 256
+14:56:22.664 [main] DEBUG io.netty.buffer.PooledByteBufAllocator -- -Dio.netty.allocator.normalCacheSize: 64
+14:56:22.664 [main] DEBUG io.netty.buffer.PooledByteBufAllocator -- -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+14:56:22.664 [main] DEBUG io.netty.buffer.PooledByteBufAllocator -- -Dio.netty.allocator.cacheTrimInterval: 8192
+14:56:22.664 [main] DEBUG io.netty.buffer.PooledByteBufAllocator -- -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+14:56:22.664 [main] DEBUG io.netty.buffer.PooledByteBufAllocator -- -Dio.netty.allocator.useCacheForAllThreads: false
+14:56:22.664 [main] DEBUG io.netty.buffer.PooledByteBufAllocator -- -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+14:56:22.664 [main] DEBUG io.netty.buffer.PooledByteBufAllocator -- -Dio.netty.allocator.disableCacheFinalizersForFastThreadLocalThreads: false
+14:56:22.667 [main] DEBUG io.netty.buffer.ByteBufUtil -- -Dio.netty.allocator.type: pooled
+14:56:22.667 [main] DEBUG io.netty.buffer.ByteBufUtil -- -Dio.netty.threadLocalDirectBufferSize: 0
+14:56:22.667 [main] DEBUG io.netty.buffer.ByteBufUtil -- -Dio.netty.maxThreadLocalCharBufferSize: 200000
+14:56:22.669 [main] DEBUG io.netty.util.ResourceLeakDetectorFactory -- Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@78fa769e
+14:56:22.673 [main] DEBUG io.netty.util.Recycler -- -Dio.netty.recycler.maxCapacityPerThread: 4096
+14:56:22.673 [main] DEBUG io.netty.util.Recycler -- -Dio.netty.recycler.ratio: 8
+14:56:22.673 [main] DEBUG io.netty.util.Recycler -- -Dio.netty.recycler.chunkSize: 32
+14:56:22.673 [main] DEBUG io.netty.util.Recycler -- -Dio.netty.recycler.blocking: false
+14:56:22.673 [main] DEBUG io.netty.util.Recycler -- -Dio.netty.recycler.batchFastThreadLocalOnly: true
+14:56:22.673 [main] DEBUG io.netty.util.internal.PlatformDependent -- org.jctools-core.MpscChunkedArrayQueue: available
+14:56:22.717 [main] DEBUG io.netty.handler.ssl.CipherSuiteConverter -- Cipher suite mapping: TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256 => ECDHE-ECDSA-AES128-GCM-SHA256
+14:56:22.717 [main] DEBUG io.netty.handler.ssl.CipherSuiteConverter -- Cipher suite mapping: SSL_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256 => ECDHE-ECDSA-AES128-GCM-SHA256
+14:56:22.717 [main] DEBUG io.netty.handler.ssl.CipherSuiteConverter -- Cipher suite mapping: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256 => ECDHE-RSA-AES128-GCM-SHA256
+14:56:22.717 [main] DEBUG io.netty.handler.ssl.CipherSuiteConverter -- Cipher suite mapping: SSL_ECDHE_RSA_WITH_AES_128_GCM_SHA256 => ECDHE-RSA-AES128-GCM-SHA256
+14:56:22.718 [main] DEBUG io.netty.handler.ssl.CipherSuiteConverter -- Cipher suite mapping: TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384 => ECDHE-ECDSA-AES256-GCM-SHA384
+14:56:22.718 [main] DEBUG io.netty.handler.ssl.CipherSuiteConverter -- Cipher suite mapping: SSL_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384 => ECDHE-ECDSA-AES256-GCM-SHA384
+14:56:22.718 [main] DEBUG io.netty.handler.ssl.CipherSuiteConverter -- Cipher suite mapping: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 => ECDHE-RSA-AES256-GCM-SHA384
+14:56:22.718 [main] DEBUG io.netty.handler.ssl.CipherSuiteConverter -- Cipher suite mapping: SSL_ECDHE_RSA_WITH_AES_256_GCM_SHA384 => ECDHE-RSA-AES256-GCM-SHA384
+14:56:22.718 [main] DEBUG io.netty.handler.ssl.CipherSuiteConverter -- Cipher suite mapping: TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256 => ECDHE-ECDSA-CHACHA20-POLY1305
+14:56:22.718 [main] DEBUG io.netty.handler.ssl.CipherSuiteConverter -- Cipher suite mapping: SSL_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256 => ECDHE-ECDSA-CHACHA20-POLY1305
+14:56:22.718 [main] DEBUG io.netty.handler.ssl.CipherSuiteConverter -- Cipher suite mapping: TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256 => ECDHE-RSA-CHACHA20-POLY1305
+14:56:22.718 [main] DEBUG io.netty.handler.ssl.CipherSuiteConverter -- Cipher suite mapping: SSL_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256 => ECDHE-RSA-CHACHA20-POLY1305
+14:56:22.718 [main] DEBUG io.netty.handler.ssl.CipherSuiteConverter -- Cipher suite mapping: TLS_ECDHE_PSK_WITH_CHACHA20_POLY1305_SHA256 => ECDHE-PSK-CHACHA20-POLY1305
+14:56:22.718 [main] DEBUG io.netty.handler.ssl.CipherSuiteConverter -- Cipher suite mapping: SSL_ECDHE_PSK_WITH_CHACHA20_POLY1305_SHA256 => ECDHE-PSK-CHACHA20-POLY1305
+14:56:22.718 [main] DEBUG io.netty.handler.ssl.CipherSuiteConverter -- Cipher suite mapping: TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA => ECDHE-ECDSA-AES128-SHA
+14:56:22.718 [main] DEBUG io.netty.handler.ssl.CipherSuiteConverter -- Cipher suite mapping: SSL_ECDHE_ECDSA_WITH_AES_128_CBC_SHA => ECDHE-ECDSA-AES128-SHA
+14:56:22.718 [main] DEBUG io.netty.handler.ssl.CipherSuiteConverter -- Cipher suite mapping: TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA => ECDHE-RSA-AES128-SHA
+14:56:22.718 [main] DEBUG io.netty.handler.ssl.CipherSuiteConverter -- Cipher suite mapping: SSL_ECDHE_RSA_WITH_AES_128_CBC_SHA => ECDHE-RSA-AES128-SHA
+14:56:22.718 [main] DEBUG io.netty.handler.ssl.CipherSuiteConverter -- Cipher suite mapping: TLS_ECDHE_PSK_WITH_AES_128_CBC_SHA => ECDHE-PSK-AES128-CBC-SHA
+14:56:22.718 [main] DEBUG io.netty.handler.ssl.CipherSuiteConverter -- Cipher suite mapping: SSL_ECDHE_PSK_WITH_AES_128_CBC_SHA => ECDHE-PSK-AES128-CBC-SHA
+14:56:22.718 [main] DEBUG io.netty.handler.ssl.CipherSuiteConverter -- Cipher suite mapping: TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA => ECDHE-ECDSA-AES256-SHA
+14:56:22.718 [main] DEBUG io.netty.handler.ssl.CipherSuiteConverter -- Cipher suite mapping: SSL_ECDHE_ECDSA_WITH_AES_256_CBC_SHA => ECDHE-ECDSA-AES256-SHA
+14:56:22.718 [main] DEBUG io.netty.handler.ssl.CipherSuiteConverter -- Cipher suite mapping: TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA => ECDHE-RSA-AES256-SHA
+14:56:22.718 [main] DEBUG io.netty.handler.ssl.CipherSuiteConverter -- Cipher suite mapping: SSL_ECDHE_RSA_WITH_AES_256_CBC_SHA => ECDHE-RSA-AES256-SHA
+14:56:22.718 [main] DEBUG io.netty.handler.ssl.CipherSuiteConverter -- Cipher suite mapping: TLS_ECDHE_PSK_WITH_AES_256_CBC_SHA => ECDHE-PSK-AES256-CBC-SHA
+14:56:22.718 [main] DEBUG io.netty.handler.ssl.CipherSuiteConverter -- Cipher suite mapping: SSL_ECDHE_PSK_WITH_AES_256_CBC_SHA => ECDHE-PSK-AES256-CBC-SHA
+14:56:22.718 [main] DEBUG io.netty.handler.ssl.CipherSuiteConverter -- Cipher suite mapping: TLS_RSA_WITH_AES_128_GCM_SHA256 => AES128-GCM-SHA256
+14:56:22.718 [main] DEBUG io.netty.handler.ssl.CipherSuiteConverter -- Cipher suite mapping: SSL_RSA_WITH_AES_128_GCM_SHA256 => AES128-GCM-SHA256
+14:56:22.718 [main] DEBUG io.netty.handler.ssl.CipherSuiteConverter -- Cipher suite mapping: TLS_RSA_WITH_AES_256_GCM_SHA384 => AES256-GCM-SHA384
+14:56:22.718 [main] DEBUG io.netty.handler.ssl.CipherSuiteConverter -- Cipher suite mapping: SSL_RSA_WITH_AES_256_GCM_SHA384 => AES256-GCM-SHA384
+14:56:22.718 [main] DEBUG io.netty.handler.ssl.CipherSuiteConverter -- Cipher suite mapping: TLS_RSA_WITH_AES_128_CBC_SHA => AES128-SHA
+14:56:22.718 [main] DEBUG io.netty.handler.ssl.CipherSuiteConverter -- Cipher suite mapping: SSL_RSA_WITH_AES_128_CBC_SHA => AES128-SHA
+14:56:22.718 [main] DEBUG io.netty.handler.ssl.CipherSuiteConverter -- Cipher suite mapping: TLS_PSK_WITH_AES_128_CBC_SHA => PSK-AES128-CBC-SHA
+14:56:22.718 [main] DEBUG io.netty.handler.ssl.CipherSuiteConverter -- Cipher suite mapping: SSL_PSK_WITH_AES_128_CBC_SHA => PSK-AES128-CBC-SHA
+14:56:22.718 [main] DEBUG io.netty.handler.ssl.CipherSuiteConverter -- Cipher suite mapping: TLS_RSA_WITH_AES_256_CBC_SHA => AES256-SHA
+14:56:22.718 [main] DEBUG io.netty.handler.ssl.CipherSuiteConverter -- Cipher suite mapping: SSL_RSA_WITH_AES_256_CBC_SHA => AES256-SHA
+14:56:22.718 [main] DEBUG io.netty.handler.ssl.CipherSuiteConverter -- Cipher suite mapping: TLS_PSK_WITH_AES_256_CBC_SHA => PSK-AES256-CBC-SHA
+14:56:22.718 [main] DEBUG io.netty.handler.ssl.CipherSuiteConverter -- Cipher suite mapping: SSL_PSK_WITH_AES_256_CBC_SHA => PSK-AES256-CBC-SHA
+14:56:22.718 [main] DEBUG io.netty.handler.ssl.OpenSsl -- Supported protocols (OpenSSL): [SSLv2Hello, TLSv1, TLSv1.1, TLSv1.2, TLSv1.3] 
+14:56:22.719 [main] DEBUG io.netty.handler.ssl.OpenSsl -- Default cipher suites (OpenSSL): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384, TLS_CHACHA20_POLY1305_SHA256]
+14:56:22.753 [main] DEBUG io.netty.channel.epoll.Epoll -- Epoll support is not available: null
+14:56:22.754 [main] DEBUG io.netty.channel.nio.NioIoHandler -- -Dio.netty.noKeySetOptimization: false
+14:56:22.754 [main] DEBUG io.netty.channel.nio.NioIoHandler -- -Dio.netty.selectorAutoRebuildThreshold: 512
+14:56:22.756 [main] DEBUG io.netty.channel.MultithreadEventLoopGroup -- -Dio.netty.eventLoopThreads: 16
+14:56:22.759 [main] DEBUG io.netty.util.concurrent.GlobalEventExecutor -- -Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+14:56:23.522 [main] INFO org.apache.kafka.clients.producer.ProducerConfig -- Idempotence will be disabled because acks is set to 1, not set to 'all'.
+14:56:23.522 [main] INFO org.apache.kafka.common.config.AbstractConfig -- ProducerConfig values: 
+	acks = 1
+	auto.include.jmx.reporter = true
+	batch.size = 16384
+	bootstrap.servers = [localhost:9092]
+	buffer.memory = 33554432
+	client.dns.lookup = use_all_dns_ips
+	client.id = producer-1
+	compression.gzip.level = -1
+	compression.lz4.level = 9
+	compression.type = none
+	compression.zstd.level = 3
+	confluent.lkc.id = null
+	confluent.proxy.protocol.client.address = null
+	confluent.proxy.protocol.client.mode = PROXY
+	confluent.proxy.protocol.client.port = null
+	confluent.proxy.protocol.client.version = NONE
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = false
+	enable.metrics.push = true
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metadata.recovery.strategy = none
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.adaptive.partitioning.enable = true
+	partitioner.availability.timeout.ms = 0
+	partitioner.class = null
+	partitioner.ignore.keys = false
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.max.ms = 1000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.jaas.config.jndi.allowlist = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.header.urlencode = false
+	sasl.oauthbearer.iat.validation.enabled = false
+	sasl.oauthbearer.jti.validation.enabled = false
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+14:56:23.543 [main] INFO org.apache.kafka.common.telemetry.internals.KafkaMetricsCollector -- initializing Kafka metrics collector
+14:56:23.600 [kafka-producer-network-thread | producer-1] DEBUG org.apache.kafka.clients.producer.internals.Sender -- [Producer clientId=producer-1] Starting Kafka producer I/O thread.
+14:56:23.601 [main] INFO org.apache.kafka.common.utils.AppInfoParser -- Kafka version: 7.9.5-ce
+14:56:23.601 [main] INFO org.apache.kafka.common.utils.AppInfoParser -- Kafka commitId: 21fdf52c487846be
+14:56:23.601 [main] INFO org.apache.kafka.common.utils.AppInfoParser -- Kafka startTimeMs: 1772535383600
+14:56:23.601 [kafka-producer-network-thread | producer-1] DEBUG org.apache.kafka.clients.NetworkClient -- [Producer clientId=producer-1] Initialize connection to node localhost:9092 (id: -1 rack: null) for sending metadata request
+14:56:23.602 [main] DEBUG org.apache.kafka.clients.producer.KafkaProducer -- [Producer clientId=producer-1] Kafka producer started
+14:56:23.602 [kafka-producer-network-thread | producer-1] DEBUG org.apache.kafka.clients.ClientUtils -- Resolved host localhost as 127.0.0.1
+14:56:23.602 [kafka-producer-network-thread | producer-1] DEBUG org.apache.kafka.clients.ClusterConnectionStates -- [Producer clientId=producer-1] Resolved host localhost to addresses [localhost/127.0.0.1]
+14:56:23.603 [kafka-producer-network-thread | producer-1] DEBUG org.apache.kafka.clients.NetworkClient -- [Producer clientId=producer-1] Initiating connection to node localhost:9092 (id: -1 rack: null) using address localhost/127.0.0.1
+14:56:23.603 [main] ERROR io.gatling.app.Gatling$ -- Run crashed
+java.lang.NoSuchMethodError: 'akka.actor.ActorSystem io.gatling.core.CoreComponents.actorSystem()'
+	at org.galaxio.gatling.kafka.protocol.KafkaProtocol$$anon$1.$anonfun$newComponents$1(KafkaProtocol.scala:53)
+	at io.gatling.core.protocol.ProtocolComponentsRegistry.computeComponent(Protocol.scala:78)
+	at io.gatling.core.protocol.ProtocolComponentsRegistry.$anonfun$components$1(Protocol.scala:82)
+	at scala.collection.mutable.HashMap.getOrElseUpdate(HashMap.scala:469)
+	at io.gatling.core.protocol.ProtocolComponentsRegistry.components(Protocol.scala:82)
+	at org.galaxio.gatling.kafka.actions.KafkaRequestActionBuilder.build(KafkaRequestActionBuilder.scala:19)
+	at io.gatling.core.structure.BuildAction.$anonfun$build$1(BuildAction.scala:27)
+	at scala.collection.LinearSeqOps.foldLeft(LinearSeq.scala:183)
+	at scala.collection.LinearSeqOps.foldLeft$(LinearSeq.scala:179)
+	at scala.collection.immutable.List.foldLeft(List.scala:79)
+	at io.gatling.core.structure.BuildAction.build(BuildAction.scala:26)
+	at io.gatling.core.structure.BuildAction.build$(BuildAction.scala:25)
+	at io.gatling.core.structure.ScenarioBuilder.build(StructureBuilder.scala:59)
+	at io.gatling.core.structure.PopulationBuilder.build(PopulationBuilder.scala:93)
+	at io.gatling.core.scenario.SimulationParams.buildScenario(Simulation.scala:193)
+	at io.gatling.core.scenario.SimulationParams.$anonfun$scenarioFlows$1(Simulation.scala:197)
+	at scala.collection.immutable.List.map(List.scala:236)
+	at io.gatling.core.scenario.SimulationParams.scenarioFlows(Simulation.scala:197)
+	at io.gatling.app.Runner.load(Runner.scala:114)
+	at io.gatling.app.Runner.run(Runner.scala:55)
+	at io.gatling.app.Gatling$.start(Gatling.scala:83)
+	at io.gatling.app.Gatling$.fromArgs(Gatling.scala:46)
+	at io.gatling.app.Gatling$.main(Gatling.scala:40)
+	at io.gatling.app.Gatling.main(Gatling.scala)
+Exception in thread "main" java.lang.NoSuchMethodError: 'akka.actor.ActorSystem io.gatling.core.CoreComponents.actorSystem()'
+	at org.galaxio.gatling.kafka.protocol.KafkaProtocol$$anon$1.$anonfun$newComponents$1(KafkaProtocol.scala:53)
+	at io.gatling.core.protocol.ProtocolComponentsRegistry.computeComponent(Protocol.scala:78)
+	at io.gatling.core.protocol.ProtocolComponentsRegistry.$anonfun$components$1(Protocol.scala:82)
+	at scala.collection.mutable.HashMap.getOrElseUpdate(HashMap.scala:469)
+	at io.gatling.core.protocol.ProtocolComponentsRegistry.components(Protocol.scala:82)
+	at org.galaxio.gatling.kafka.actions.KafkaRequestActionBuilder.build(KafkaRequestActionBuilder.scala:19)
+	at io.gatling.core.structure.BuildAction.$anonfun$build$1(BuildAction.scala:27)
+	at scala.collection.LinearSeqOps.foldLeft(LinearSeq.scala:183)
+	at scala.collection.LinearSeqOps.foldLeft$(LinearSeq.scala:179)
+	at scala.collection.immutable.List.foldLeft(List.scala:79)
+	at io.gatling.core.structure.BuildAction.build(BuildAction.scala:26)
+	at io.gatling.core.structure.BuildAction.build$(BuildAction.scala:25)
+	at io.gatling.core.structure.ScenarioBuilder.build(StructureBuilder.scala:59)
+	at io.gatling.core.structure.PopulationBuilder.build(PopulationBuilder.scala:93)
+	at io.gatling.core.scenario.SimulationParams.buildScenario(Simulation.scala:193)
+	at io.gatling.core.scenario.SimulationParams.$anonfun$scenarioFlows$1(Simulation.scala:197)
+	at scala.collection.immutable.List.map(List.scala:236)
+	at io.gatling.core.scenario.SimulationParams.scenarioFlows(Simulation.scala:197)
+	at io.gatling.app.Runner.load(Runner.scala:114)
+	at io.gatling.app.Runner.run(Runner.scala:55)
+	at io.gatling.app.Gatling$.start(Gatling.scala:83)
+	at io.gatling.app.Gatling$.fromArgs(Gatling.scala:46)
+	at io.gatling.app.Gatling$.main(Gatling.scala:40)
+	at io.gatling.app.Gatling.main(Gatling.scala)
+
+[Incubating] Problems report is available at: file:///Volumes/EMKA/IT/Performance%20Lab/%D0%A8%D0%BA%D0%BE%D0%BB%D0%B0/%D0%A2%D0%97/gatling-producer/build/reports/problems/problems-report.html
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':gatlingRun'.
+> Some of the simulations crashed: simulations.KafkaProducerSimulation
+
+* Try:
+> Run with --debug option to get more log output.
+> Run with --scan to get full insights from a Build Scan (powered by Develocity).
+> Get more help at https://help.gradle.org.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':gatlingRun'.
+	at org.gradle.internal.instrumentation.api.groovybytecode.MethodHandleInvocation.callNext(MethodHandleInvocation.java:63)
+	at org.gradle.internal.classpath.intercept.DefaultCallSiteDecorator$1.intercept(DefaultCallSiteDecorator.java:88)
+	at org.gradle.internal.instrumentation.api.groovybytecode.AbstractCallInterceptor.interceptMethodHandle(AbstractCallInterceptor.java:66)
+	at io.gatling.gradle.GatlingRunTask.gatlingRun(GatlingRunTask.groovy:140)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:125)
+	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.doExecute(StandardTaskAction.java:58)
+	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:51)
+	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:29)
+	at org.gradle.api.internal.tasks.execution.TaskExecution$3.run(TaskExecution.java:259)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$1.execute(DefaultBuildOperationRunner.java:29)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$1.execute(DefaultBuildOperationRunner.java:26)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:66)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:166)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.run(DefaultBuildOperationRunner.java:47)
+	at org.gradle.api.internal.tasks.execution.TaskExecution.executeAction(TaskExecution.java:244)
+	at org.gradle.api.internal.tasks.execution.TaskExecution.executeActions(TaskExecution.java:227)
+	at org.gradle.api.internal.tasks.execution.TaskExecution.executeWithPreviousOutputFiles(TaskExecution.java:210)
+	at org.gradle.api.internal.tasks.execution.TaskExecution.execute(TaskExecution.java:176)
+	at org.gradle.internal.execution.steps.ExecuteStep.executeInternal(ExecuteStep.java:110)
+	at org.gradle.internal.execution.steps.ExecuteStep.access$000(ExecuteStep.java:47)
+	at org.gradle.internal.execution.steps.ExecuteStep$1.call(ExecuteStep.java:64)
+	at org.gradle.internal.execution.steps.ExecuteStep$1.call(ExecuteStep.java:61)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:209)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:204)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:66)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:166)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuildOperationRunner.java:53)
+	at org.gradle.internal.execution.steps.ExecuteStep.execute(ExecuteStep.java:61)
+	at org.gradle.internal.execution.steps.ExecuteStep.execute(ExecuteStep.java:47)
+	at org.gradle.internal.execution.steps.CancelExecutionStep.execute(CancelExecutionStep.java:42)
+	at org.gradle.internal.execution.steps.TimeoutStep.executeWithoutTimeout(TimeoutStep.java:75)
+	at org.gradle.internal.execution.steps.TimeoutStep.execute(TimeoutStep.java:55)
+	at org.gradle.internal.execution.steps.PreCreateOutputParentsStep.execute(PreCreateOutputParentsStep.java:51)
+	at org.gradle.internal.execution.steps.PreCreateOutputParentsStep.execute(PreCreateOutputParentsStep.java:29)
+	at org.gradle.internal.execution.steps.RemovePreviousOutputsStep.executeMutable(RemovePreviousOutputsStep.java:70)
+	at org.gradle.internal.execution.steps.RemovePreviousOutputsStep.executeMutable(RemovePreviousOutputsStep.java:40)
+	at org.gradle.internal.execution.steps.MutableStep.execute(MutableStep.java:25)
+	at org.gradle.internal.execution.steps.BroadcastChangingOutputsStep.execute(BroadcastChangingOutputsStep.java:62)
+	at org.gradle.internal.execution.steps.BroadcastChangingOutputsStep.execute(BroadcastChangingOutputsStep.java:27)
+	at org.gradle.internal.execution.steps.CaptureOutputsAfterExecutionStep.execute(CaptureOutputsAfterExecutionStep.java:69)
+	at org.gradle.internal.execution.steps.CaptureOutputsAfterExecutionStep.execute(CaptureOutputsAfterExecutionStep.java:46)
+	at org.gradle.internal.execution.steps.ResolveInputChangesStep.executeMutable(ResolveInputChangesStep.java:39)
+	at org.gradle.internal.execution.steps.ResolveInputChangesStep.executeMutable(ResolveInputChangesStep.java:28)
+	at org.gradle.internal.execution.steps.MutableStep.execute(MutableStep.java:25)
+	at org.gradle.internal.execution.steps.BuildCacheStep.executeWithoutCache(BuildCacheStep.java:192)
+	at org.gradle.internal.execution.steps.BuildCacheStep.lambda$execute$1(BuildCacheStep.java:76)
+	at org.gradle.internal.Either$Right.fold(Either.java:176)
+	at org.gradle.internal.execution.caching.CachingState.fold(CachingState.java:62)
+	at org.gradle.internal.execution.steps.BuildCacheStep.execute(BuildCacheStep.java:74)
+	at org.gradle.internal.execution.steps.BuildCacheStep.execute(BuildCacheStep.java:49)
+	at org.gradle.internal.execution.steps.StoreExecutionStateStep.execute(StoreExecutionStateStep.java:46)
+	at org.gradle.internal.execution.steps.StoreExecutionStateStep.execute(StoreExecutionStateStep.java:35)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.executeBecause(SkipUpToDateStep.java:75)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.lambda$execute$2(SkipUpToDateStep.java:53)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.execute(SkipUpToDateStep.java:53)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.execute(SkipUpToDateStep.java:35)
+	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsFinishedStep.execute(MarkSnapshottingInputsFinishedStep.java:37)
+	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsFinishedStep.execute(MarkSnapshottingInputsFinishedStep.java:27)
+	at org.gradle.internal.execution.steps.ResolveIncrementalCachingStateStep.executeDelegate(ResolveIncrementalCachingStateStep.java:49)
+	at org.gradle.internal.execution.steps.ResolveIncrementalCachingStateStep.executeDelegate(ResolveIncrementalCachingStateStep.java:27)
+	at org.gradle.internal.execution.steps.AbstractResolveCachingStateStep.execute(AbstractResolveCachingStateStep.java:71)
+	at org.gradle.internal.execution.steps.AbstractResolveCachingStateStep.execute(AbstractResolveCachingStateStep.java:39)
+	at org.gradle.internal.execution.steps.ResolveChangesStep.executeMutable(ResolveChangesStep.java:63)
+	at org.gradle.internal.execution.steps.ResolveChangesStep.executeMutable(ResolveChangesStep.java:34)
+	at org.gradle.internal.execution.steps.MutableStep.execute(MutableStep.java:25)
+	at org.gradle.internal.execution.steps.ValidateStep.execute(ValidateStep.java:64)
+	at org.gradle.internal.execution.steps.ValidateStep.execute(ValidateStep.java:42)
+	at org.gradle.internal.execution.steps.AbstractCaptureStateBeforeExecutionStep.execute(AbstractCaptureStateBeforeExecutionStep.java:77)
+	at org.gradle.internal.execution.steps.AbstractCaptureStateBeforeExecutionStep.execute(AbstractCaptureStateBeforeExecutionStep.java:46)
+	at org.gradle.internal.execution.steps.AbstractSkipEmptyWorkStep.executeWithNonEmptySources(AbstractSkipEmptyWorkStep.java:133)
+	at org.gradle.internal.execution.steps.AbstractSkipEmptyWorkStep.execute(AbstractSkipEmptyWorkStep.java:59)
+	at org.gradle.internal.execution.steps.AbstractSkipEmptyWorkStep.execute(AbstractSkipEmptyWorkStep.java:36)
+	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsStartedStep.execute(MarkSnapshottingInputsStartedStep.java:38)
+	at org.gradle.internal.execution.steps.LoadPreviousExecutionStateStep.execute(LoadPreviousExecutionStateStep.java:36)
+	at org.gradle.internal.execution.steps.LoadPreviousExecutionStateStep.execute(LoadPreviousExecutionStateStep.java:23)
+	at org.gradle.internal.execution.steps.HandleStaleOutputsStep.executeMutable(HandleStaleOutputsStep.java:77)
+	at org.gradle.internal.execution.steps.HandleStaleOutputsStep.executeMutable(HandleStaleOutputsStep.java:43)
+	at org.gradle.internal.execution.steps.MutableStep.execute(MutableStep.java:25)
+	at org.gradle.internal.execution.steps.AssignMutableWorkspaceStep.lambda$execute$0(AssignMutableWorkspaceStep.java:35)
+	at org.gradle.api.internal.tasks.execution.TaskExecution$4.withWorkspace(TaskExecution.java:305)
+	at org.gradle.internal.execution.steps.AssignMutableWorkspaceStep.execute(AssignMutableWorkspaceStep.java:31)
+	at org.gradle.internal.execution.steps.AssignMutableWorkspaceStep.execute(AssignMutableWorkspaceStep.java:22)
+	at org.gradle.internal.execution.steps.ChoosePipelineStep.execute(ChoosePipelineStep.java:40)
+	at org.gradle.internal.execution.steps.ChoosePipelineStep.execute(ChoosePipelineStep.java:23)
+	at org.gradle.internal.execution.steps.ExecuteWorkBuildOperationFiringStep.lambda$execute$2(ExecuteWorkBuildOperationFiringStep.java:67)
+	at org.gradle.internal.execution.steps.ExecuteWorkBuildOperationFiringStep.execute(ExecuteWorkBuildOperationFiringStep.java:67)
+	at org.gradle.internal.execution.steps.ExecuteWorkBuildOperationFiringStep.execute(ExecuteWorkBuildOperationFiringStep.java:39)
+	at org.gradle.internal.execution.steps.IdentityCacheStep.execute(IdentityCacheStep.java:46)
+	at org.gradle.internal.execution.steps.IdentityCacheStep.execute(IdentityCacheStep.java:34)
+	at org.gradle.internal.execution.steps.IdentifyStep.execute(IdentifyStep.java:44)
+	at org.gradle.internal.execution.steps.IdentifyStep.execute(IdentifyStep.java:31)
+	at org.gradle.internal.execution.impl.DefaultExecutionEngine$1.execute(DefaultExecutionEngine.java:68)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeIfValid(ExecuteActionsTaskExecuter.java:132)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:121)
+	at org.gradle.api.internal.tasks.execution.ProblemsTaskPathTrackingTaskExecuter.execute(ProblemsTaskPathTrackingTaskExecuter.java:41)
+	at org.gradle.api.internal.tasks.execution.FinalizePropertiesTaskExecuter.execute(FinalizePropertiesTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskExecutionModeExecuter.execute(ResolveTaskExecutionModeExecuter.java:51)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:57)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:74)
+	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:36)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.executeTask(EventFiringTaskExecuter.java:77)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:55)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:52)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:209)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:204)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:66)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:166)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuildOperationRunner.java:53)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter.execute(EventFiringTaskExecuter.java:52)
+	at org.gradle.execution.plan.DefaultNodeExecutor.executeLocalTaskNode(DefaultNodeExecutor.java:55)
+	at org.gradle.execution.plan.DefaultNodeExecutor.execute(DefaultNodeExecutor.java:34)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:355)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:343)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.lambda$execute$0(DefaultTaskExecutionGraph.java:339)
+	at org.gradle.internal.operations.CurrentBuildOperationRef.with(CurrentBuildOperationRef.java:84)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:339)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:328)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.execute(DefaultPlanExecutor.java:459)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.run(DefaultPlanExecutor.java:376)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.AbstractManagedExecutor$1.run(AbstractManagedExecutor.java:47)
+Caused by: java.lang.RuntimeException: Some of the simulations crashed: simulations.KafkaProducerSimulation
+	... 127 more
+
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 10.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/9.3.1/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD FAILED in 2s
+3 actionable tasks: 2 executed, 1 up-to-date
+Watched directory hierarchies: [/Volumes/EMKA/IT/Performance Lab/Школа/ТЗ/gatling-producer]
