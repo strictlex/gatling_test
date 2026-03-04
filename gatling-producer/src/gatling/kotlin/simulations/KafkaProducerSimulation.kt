@@ -3,20 +3,19 @@ package simulations
 import com.fasterxml.jackson.module.kotlin.jacksonObjectMapper
 import io.gatling.javaapi.core.CoreDsl.*
 import io.gatling.javaapi.core.*
+import io.gatling.javaapi.http.HttpDsl.http
+import io.gatling.javaapi.http.HttpDsl.status
 import org.apache.kafka.clients.producer.KafkaProducer
 import org.apache.kafka.clients.producer.ProducerRecord
 import org.apache.kafka.common.serialization.StringSerializer
-import java.io.OutputStreamWriter
-import java.net.Socket
+import simulations.GraphiteClient.pushGraphite
 import java.time.Duration
 import java.util.*
 import java.util.concurrent.atomic.AtomicLong
 
 class KafkaProducerSimulation : Simulation() {
 
-    private val testDuration: Duration = Duration.ofSeconds(60)
-
-    private val mapper = jacksonObjectMapper()
+    private val testDuration: Duration = Duration.ofSeconds(300)
 
     private val producerProps = Properties().apply {
         put("bootstrap.servers", "localhost:9092")
@@ -27,22 +26,10 @@ class KafkaProducerSimulation : Simulation() {
     }
     private val producer = KafkaProducer<String, String>(producerProps)
 
-
     private val okCount = AtomicLong(0)
     private val koCount = AtomicLong(0)
     private val lastLatencyMs = AtomicLong(0)
 
-
-    private fun pushGraphite(metricPath: String, value: Long) {
-        val ts = System.currentTimeMillis() / 1000
-        val line = "$metricPath $value $ts\n"
-        Socket("localhost", 2003).use { sock ->
-            OutputStreamWriter(sock.getOutputStream(), Charsets.UTF_8).use { w ->
-                w.write(line)
-                w.flush()
-            }
-        }
-    }
 
     private fun pushKafkaMetrics() {
         pushGraphite("gatling.kafka.send.ok", okCount.get())
@@ -58,11 +45,12 @@ class KafkaProducerSimulation : Simulation() {
                     "full_name" to Vars.randomFullName(),
                     "inn" to Vars.randomInn()
                 )
-                val json = mapper.writeValueAsString(payload)
+                val json = jacksonObjectMapper().writeValueAsString(payload)
+                val keyId = payload["msg_id"]
 
                 val start = System.nanoTime()
                 try {
-                    producer.send(ProducerRecord("test-topic", json)).get()
+                    producer.send(ProducerRecord("test-topic", keyId,json)).get()
                     val latency = (System.nanoTime() - start) / 1_000_000
                     lastLatencyMs.set(latency)
                     okCount.incrementAndGet()
@@ -74,6 +62,10 @@ class KafkaProducerSimulation : Simulation() {
 
                 session
             }
+//            .exec(http("Dummy request")
+//                .get("http://localhost:9999")
+//                .disableFollowRedirect()
+//                .check(status().saveAs("dummyStatus")))
 
     init {
         setUp(
@@ -83,6 +75,7 @@ class KafkaProducerSimulation : Simulation() {
                 constantUsersPerSec(25.0).during(testDuration),
                 constantUsersPerSec(50.0).during(testDuration),
             )
+//                .protocols(http.baseUrl("http://localhost"))
         )
 
     }

@@ -5,20 +5,14 @@
         </encoder>
     </appender>
 
-    <!-- Корневой уровень – INFO (убирает DEBUG) -->
+
     <root level="INFO">
         <appender-ref ref="CONSOLE"/>
     </root>
 
-    <!-- Kafka очень шумная – поднимаем до WARN -->
+
     <logger name="org.apache.kafka" level="WARN"/>
     <logger name="kafka" level="WARN"/>
-
-    <!-- Можно приглушить и сам Gatling, если надо -->
     <logger name="io.gatling" level="INFO"/>
-    <!-- или даже WARN, если хотите минимум -->
-    <!-- <logger name="io.gatling" level="WARN"/> -->
-
-    <!-- Для своего кода можно оставить DEBUG, если нужно -->
      <logger name="simulations" level="DEBUG"/>
 </configuration>
