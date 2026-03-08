@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example</groupId>
-    <artifactId>kafka_stub</artifactId>
+    <artifactId>spring-boot-kafka_stub</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>

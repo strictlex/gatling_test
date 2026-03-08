@@ -1,0 +1,40 @@
+gatling_kafka_tests/target
+kafka_stub/target
+.DS_Store
+# Gradle
+.gradle/
+build/
+*/build/
+*/bin/
+*/out/
+
+# IDE
+.idea/
+*.iml
+*.iws
+*.ipr
+.DS_Store
+
+# Логи и временные файлы
+*.log
+run.log
+**/run.log
+
+# Скомпилированные классы и JAR
+*.class
+*.jar
+!**/*.jar          # если нужно хранить какие-то JAR-файлы, но обычно не хранят
+
+
+.DS_Store
+gatling-producer/build/
+gatling-producer/.gradle/
+gatling-producer/.idea/
+gatling-producer/gradle.properties
+gatling-producer/.DS_Store
+gatling-producer/gradlew.bat
+gatling-producer/gradlew
+gatling-producer/.kotlin/
+Spring_boot_kafka_stub/.mvn/
+Spring_boot_kafka_stub/.idea/
+Spring_boot_kafka_stub/target/
